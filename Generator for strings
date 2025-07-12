@@ -1,0 +1,6 @@
+def strings(lst):
+  for s in lst:
+     yield s.upper()
+fruits=['apple','cherry','mango','grapes']
+for fruit in strings(fruits):
+  print(fruit)
