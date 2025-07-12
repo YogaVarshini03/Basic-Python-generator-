@@ -1,0 +1,7 @@
+def gen_function():
+   yield "Hello"
+   yield "World"
+   yield "Python"
+gen=gen_function()
+for value in gen:
+   print(value)
